@@ -109,6 +109,9 @@
         background-color: black;
         background-image: none;
         color: white; 
+        margin-top: .6em;
+        display: block;
+        width: 100%;
         /* linear gradient */
     }
 
