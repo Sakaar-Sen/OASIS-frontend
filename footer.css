@@ -3,6 +3,7 @@
     bottom: 2em;
     align-content: center;
     width: 100%;
+    z-index: -1 ;
 }
 
 .item {
