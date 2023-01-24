@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 1);
+    /* background-image: url('imgs/3b72ccbc21bbfcb4c3ab8a758b756502.jpg');
+    background-blend-mode: color-burn;
+    background-position: center;
+    background-size: cover; */
+    font-family: 'Gugi', cursive;
+    color: white;
+    z-index: -1;
+}
+
+.line{
+    position: absolute;
+    left: 1em;
+    top: 2.8em;
+    height: .3em;
+    width: 4.3em;
+    background-image: linear-gradient(45deg, rgb(255, 0, 149), rgb(139, 139, 254));
+}
+
+.input > .username, .password {
+    font-size: 1.5em;
+}
+
+
+
+.login-form {
+    margin: auto;
+    text-align: center; 
+    height: 70vh;
+    padding-top: 10vh;
+}
+
+.login-title{
+    margin-bottom: 3em;
+}
+
+.input-element {
+    padding: 10px ;
+    font-size: 1.3em;
+    margin-bottom: 5vh;
+    border-radius: .5em;
+}
+
+.submit-button {
+    color: black;
+    font-family: "Gugi";
+    padding: .6em 2em;
+    font-size: 1.1em;
+    border-radius: .2em;
+    cursor: pointer;
+    background: linear-gradient(210deg, rgb(255, 74, 243), rgb(159, 86, 255), rgb(88, 158, 237));    
+    scale: 100%;
+    transition: scale .2s;
+}
+
+.submit-button:hover{
+    scale: 110%;
+}
+
+@media (max-width:800px) {
+    .login-form{
+        scale: 80%;
+    }
+}

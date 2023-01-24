@@ -10,17 +10,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="footer.css">
 
 
 
-    <title>OASIS - About</title>
+    <title>OASIS - Login</title>
 </head>
 
 <body>
-
     <div class="nav">
         <input type="checkbox" id="nav-check">
         <div class="nav-header">
@@ -38,14 +37,33 @@
         </div>
         <div class="nav-links">
             <a href="index.html">Home</a>
-            <a href="" class="active">About</a>
+            <a href="">About</a>
             <a href="">Sponsers</a>
             <a href="" id="get-started">Get Started</a>
         </div>
     </div>
 
 
-    <h1> About page</h1>
+
+
+
+        <div class="login-form">
+            <h1 class="login-title">Login</h1>
+            <form class="form" action="" method="get">
+                <div class="input">
+                    <input name="username" id="username" type="username" class="input-element" placeholder="username" />
+                </div>
+
+                <div class="input">
+                    <input name="password" id="pasword" type="password" class="input-element" placeholder="password" />
+                </div>
+
+                <button type="submit" class="submit-button">
+                    <div class="button-label">Login</div>
+                </button>
+            </form>
+        </div>
+
 
 
 
@@ -69,6 +87,16 @@
         </div>
     </div>
 
+    <script>
+        window.addEventListener('resize', resize);
+
+        function resize() {
+            const formImage = document.querySelector('.form__image');
+            formImage.style.height = document.body.scrollHeight + 'px';
+        }
+
+        resize();
+    </script>
 </body>
 
 </html>

@@ -5,6 +5,7 @@
     background-color: transparent;
     position: relative;
     font-family: 'Gugi', cursive;
+    z-index: 2;
     /* background-color: black; */
   }
   
@@ -68,7 +69,7 @@
     font-weight: 600;
     opacity: 100%;
     transition: background-position 0.2s;
-    z-index: 1;
+    /* z-index: 2; */
 }
 
 
@@ -103,6 +104,10 @@
   }
   
 @media (max-width:800px) {
+    .nav {
+        background-color: black;
+        margin-top: 0px;
+    }
     .nav > .nav-btn {
         display: inline-block;
         position: absolute;
@@ -135,7 +140,7 @@
     .nav > .nav-links {
         position: absolute;
         display: block;
-        width: 100%;
+        width: 100vw;
         background-color: rgb(0, 0, 0);
         height: 0px;
         transition: all 0.3s ease-in;
@@ -145,7 +150,8 @@
     }
 
     #get-started {
-        margin-right: 3em;
+        /* margin-right: 3em; */
+        padding-right: 3em;
         border-radius: .4em;
         padding: .35em .55em;
         background-color: black;
@@ -154,6 +160,7 @@
         margin-top: .6em;
         display: block;
         width: 100%;
+        transform: skew(0deg);
         /* linear gradient */
     }
 
