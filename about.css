@@ -1,0 +1,19 @@
+.about-us-box{
+    border-style: solid;
+    padding:50px;
+    margin:50px;
+    border-color: blueviolet;
+    box-shadow:0px 0px 20px hotpink;
+    border-radius: 20px;
+}
+
+h1{
+    margin-top: 10vh;
+    margin-left: 50px;
+}
+
+.about-image{
+    height:50vh;
+    background-image: url(imgs/purple-bg-removebg-preview.png);
+    background-size: contain;
+}
