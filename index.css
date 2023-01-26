@@ -45,7 +45,6 @@ body {
 }
 
 .middle-written{
-    margin-left:3%;
     display:inline-block;
     flex:0.9;
     align-items:center;
@@ -75,23 +74,23 @@ body {
 
 .get-started{
     border-radius: .2em;
-        transform: skew(-20deg);
-        padding: .35em 1.2em;
-        /* background-image: linear-gradient(90deg, rgb(255, 74, 243), rgb(101, 163, 234),  rgb(255, 0, 238), rgb(42, 141, 255)); */
-        background-image: linear-gradient(90deg, rgb(255, 74, 243), rgb(101, 163, 234), rgb(42, 141, 255), rgb(255, 0, 238));
-        background-size: 300% 300%;
-        color: rgb(12, 12, 12);
-        font-weight: 600;
-        opacity: 100%;
-        transition: background-position 0.2s;
-        text-decoration: none;
-        font-size: 1em;
+    transform: skew(-20deg);
+    padding: .35em 1.2em;
+    /* background-image: linear-gradient(90deg, rgb(255, 74, 243), rgb(101, 163, 234),  rgb(255, 0, 238), rgb(42, 141, 255)); */
+    background-image: linear-gradient(90deg, rgb(255, 74, 243), rgb(101, 163, 234), rgb(42, 141, 255), rgb(255, 0, 238));
+    background-size: 300% 300%;
+    color: rgb(12, 12, 12);
+    font-weight: 600;
+    opacity: 100%;
+    transition: background-position 0.2s;
+    text-decoration: none;
+    font-size: 1em;
 }
 
 .get-started:hover {
     background-position: 100% 0;
     transition: all .2s ease-out;
-}
+}   
 
 .titlee-img{
     flex:1;
@@ -105,7 +104,7 @@ body {
 /* .js{
     width:100%;
 } */
-.yee{
+.entire-body{
     display: flex;
     justify-content: space-between;
     vertical-align: center;
@@ -135,10 +134,6 @@ body {
     flex:1;
 }
 
-.backslash-nav {
-    float: right;
-    font-size: 1em;
-}
 
 
 .container {
@@ -169,6 +164,7 @@ body {
     mix-blend-mode: multiply;
     text-align: center;
 }
+
 
 .container-2{
     width: 350px;

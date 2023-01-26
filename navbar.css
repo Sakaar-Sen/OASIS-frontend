@@ -16,6 +16,12 @@
 }
 
 
+.backslash-nav {
+    float: right;
+    font-size: 1em;
+}
+
+
   
 .nav > .nav-header {
     display: inline;
