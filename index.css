@@ -1,10 +1,10 @@
 body {
     margin: 0px;
-    background-color: rgba(0, 0, 0, .5);
-    background-image: url('imgs/3b72ccbc21bbfcb4c3ab8a758b756502.jpg');
+    background-color: rgba(0, 0, 0);
+    /* background-image: url('imgs/3b72ccbc21bbfcb4c3ab8a758b756502.jpg');
     background-blend-mode: color-burn;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
     font-family: 'Figtree', sans-serif;
     color: white;
     

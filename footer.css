@@ -1,9 +1,10 @@
 .footer-container {
-    position: absolute;
-    bottom: 2em;
+        /* position: absolute;
+        bottom: 2em; */
     align-content: center;
     width: 100%;
     z-index: -1 ;
+    margin-bottom: 3em;
 }
 
 .item {
