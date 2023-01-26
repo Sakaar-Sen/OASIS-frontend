@@ -1,0 +1,22 @@
+.sponsors-titlee {
+    width: 30%;
+    text-align: center;
+    background-color: blueviolet;
+    margin: auto;
+    margin-top: 10vh;
+    height: 5vh;
+    padding-top: 20px;
+}
+
+.sponsor-grid {
+    display: flex;
+    background-image: url(imgs/grid-removebg-preview.png);
+    margin-top: 10vh;
+    align-items: center;
+    height: 50vh;
+}
+
+.sponsor-grid-con {
+    text-align: center;
+    flex: 1;
+}
