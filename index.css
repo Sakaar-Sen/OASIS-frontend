@@ -5,7 +5,7 @@ body {
     background-blend-mode: color-burn;
     background-position: center;
     background-size: cover;
-    font-family: 'Gugi', cursive;
+    font-family: 'Figtree', sans-serif;
     color: white;
     z-index: -1;
 }
