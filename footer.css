@@ -1,5 +1,6 @@
 .footer-container {
-    position: absolute;
+    /* position: absolute; */
+    margin-top: 10vh;
     bottom: 2em;
     align-content: center;
     width: 100%;
