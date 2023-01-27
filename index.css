@@ -1,13 +1,8 @@
 body {
     margin: 0px;
-<<<<<<< Updated upstream
     background-color: black;
     /* background-color: rgba(0, 0, 0, .5);
     background-image: url('imgs/3b72ccbc21bbfcb4c3ab8a758b756502.jpg');
-=======
-    background-color: #00000080;
-    /* background-image: url('imgs/3b72ccbc21bbfcb4c3ab8a758b756502.jpg');
->>>>>>> Stashed changes
     background-blend-mode: color-burn;
     background-position: center;
     background-size: cover;
@@ -202,11 +197,7 @@ body {
     display: flex;
     /* align-items: center; */
     /* justify-content: center; */
-<<<<<<< Updated upstream
     font-size: 0.63em;
-=======
-    font-size: 0.60em;
->>>>>>> Stashed changes
     font-weight: 600;
     mix-blend-mode: multiply;
     text-align: center;
