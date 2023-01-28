@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+
+#background{
+    width:100%;
+    position:fixed;
+    z-index:-1
+}
+
+
+/* the body fade becomes visible only when the image is bigger than the viewport */
+body::after{
+    background-image:  linear-gradient(to bottom, transparent, #000000);
+    content:'';
+    display:block;
+    height:400px;
+    bottom:0px;
+    position:fixed;
+    width:100%;
+    z-index:-1;
+}
+
+#background::after{
+    background-image:  linear-gradient(to bottom, transparent, #000000);
+    content:'';
+    display:block;
+    height:60px;
+    bottom:0px;
+    position:absolute;
+    width:100%;
+}
+
+.back-video {
+  filter: brightness(70%);
+ 
+
+  /* mix-blend-mode:darken; */
+  /* z-index: -1;   */
+}
+
+
+/* 
+@media (min-aspect-ratio: 16/9){
+  .back-video{
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+@media (max-aspect-ratio: 16/9){
+  .back-video{
+    width: auto;
+    height: 100%;
+  }
+} */
+
+    </style>
+</head>
+<body>
+    <div id="background">
+        <video id="background-video" autoplay loop muted    plays-inline class="back-video" poster="">
+            <source src="imgs/loop.mp4" type="video/mp4">
+        </video>      </div>
+      </body>
+</html>

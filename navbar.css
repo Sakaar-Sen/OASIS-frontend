@@ -3,7 +3,7 @@
     height: 3.12em;
     width: 100%;
     background-color: transparent;
-    position: relative;
+    position: absolute;
     font-family: 'Gugi', cursive;
     z-index: 2;
     /* background-color: black; */

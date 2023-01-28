@@ -14,6 +14,14 @@
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="footer.css">
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var video = document.getElementById("background-video");
+
+            video.playbackRate = 0.9;
+
+        });
+      </script>
 
 
     <title>OASIS - Home</title>
@@ -43,23 +51,26 @@
         </div>
     </div>
 
-
     
 
 
 
     <div class="home-body-container">
-        <video id="background-video" autoplay loop muted plays-inline class="back-video" poster="">
+        
+        <video id="background-video" autoplay loop muted plays-inline class="back-video">
             <source src="imgs/loop.mp4" type="video/mp4">
         </video>
 
-        <h1 class="welcome home-body-container-item">Zero Hour <br></h1>
+        <h1 class="welcome home-body-container-item">Zero Hour</h1>
+        <p class="sub-welcome home-body-container-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda labore illo reprehenderit enim fugit porro accusantium minima corporis nobis?</p>
         <a href="login.html" class="home-body-container-item home-get-started">
             Get Started
         </a>
 
     </div>
 
+
+    
 
 
 
@@ -83,5 +94,6 @@
             </div> -->
     </div>
 </body>
+
 
 </html>
