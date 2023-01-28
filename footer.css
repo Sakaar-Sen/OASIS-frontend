@@ -22,7 +22,7 @@
 }
 
 
-img{
+.footer-container > .item > a > img{
     filter: invert(100);
     max-width: 1.5em;
     opacity: 80%;
