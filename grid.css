@@ -112,7 +112,7 @@
     /* border: solid; */
     /* border-color: wheat; */
     filter: blur(0px);
-    color: black;
+    color: white;
     border-radius: 1em;
     list-style: none;
     padding: .3em .3em;
@@ -124,13 +124,13 @@ li {
     padding: 2vh 0;
 }
 
-.ul1, .ul2 , .ul4{
+/* .ul1, .ul2 , .ul4{
     background-image: linear-gradient(0deg,rgb(134, 114, 80, 0), rgba(157, 142, 114, .5) 30%, rgb(153, 122, 72));
 }
 
 .ul3 {
     background-image: linear-gradient(180deg,rgb(134, 134, 134), rgba(91, 91, 91, 0.5) 70%, rgba(0, 0, 0, 0));
-}
+} */
 
 
 .events-heading-container {
