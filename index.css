@@ -1,13 +1,13 @@
 body {
     margin: 0px;
-    background-color: rgba(0, 0, 0, .5);
-    background-image: url('imgs/3b72ccbc21bbfcb4c3ab8a758b756502.jpg');
-    background-blend-mode: color-burn;
-    background-position: center;
-    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* background-blend-mode: color-burn; */
+    /* background-position: center; */
+    /* background-size: cover; */
     font-family: 'Gugi', cursive;
     color: white;
     z-index: -1;
+    overflow-x: hidden;
 }
 
 .line{
@@ -19,13 +19,36 @@ body {
     background-image: linear-gradient(45deg, rgb(255, 0, 149), rgb(139, 139, 254));
 }
 
+.back-video {
+  position: absolute;
+
+  right: 0;
+  bottom: 0;
+  z-index: -2;  
+}
+
+@media (min-aspect-ratio: 16/9){
+  .back-video{
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+@media (max-aspect-ratio: 16/9){
+  .back-video{
+    width: auto;
+    height: 100%;
+  }
+}
+
 
 .home-body-container{
     float: none;
     position: relative;
     display: grid;
     height: 100vh;
-    width: 98.5vw;
+    width: 100vw;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(9, 1fr);
     /* border-width: 2px;
@@ -84,9 +107,9 @@ body {
   /* padding: 0px 0px;
   margin-top: 0px; */
   font-family: "Gugi", cursive;
-  background: linear-gradient(45deg, rgb(255, 0, 149), rgb(139, 139, 254));
+  background: linear-gradient(210deg, rgb(255, 74, 243), rgb(159, 86, 255), rgb(88, 158, 237));
   border: 0;
-  color: #fff;
+  color: white;
   letter-spacing: 3px;
   box-shadow: 6px px 0px #fff;
   outline: transparent;
@@ -118,7 +141,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(45deg, rgb(255, 0, 149), rgb(139, 139, 254));
+  background: linear-gradient(210deg, rgb(255, 74, 243), rgb(159, 86, 255), rgb(88, 158, 237));
   text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
   clip-path: var(--slice-0);
 }
