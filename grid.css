@@ -1,44 +1,49 @@
-.outer-grid{
-    display: grid;
-    grid-template-columns: repeat(2, auto);
+.outer-grid {
+    /* display: grid; */
+    grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(4, auto);
     grid-row-gap: 2.5em;
     margin-bottom: 10em;
 }
 
-.outer-grid-heading{
+.outer-grid-heading {
     color: white;
     font-size: 4em;
 }
 
-.outer-grid-item{
+.outer-grid-item {
     text-align: center;
 }
 
 .item1 {
+    grid-row-start: 1;
     grid-column-start: 2;
     /* margin-left: -10em; */
 }
 
-.item3{
+.item2 {
+    grid-row-start: 2;
+}
+
+.item3 {
     grid-column-start: 2;
     grid-row-start: 3;
 }
 
-.item4{
+.item4 {
     grid-row-start: 4;
 }
 
-.item0{
+.item0 {
     display: flex;
 }
 
-.img0{
+.img0 {
     align-self: center;
     max-width: 100%;
 }
 
-.grid-item{
+.grid-item {
     /* background-color: rgb(25, 35, 94); */
     background-image: linear-gradient(45deg, rgb(150, 18, 206), rgb(55, 0, 255));
     border-style: solid;
@@ -52,22 +57,22 @@
     transition: scale 0.3s, box-shadow 0.3s;
 }
 
-.grid-item:hover{
+.grid-item:hover {
     scale: 105%;
 }
 
-.grid-item:hover > .img1{
+.grid-item:hover>.img1 {
     background-image: url('imgs/giphy.webp#t=0s');
 }
 
-.image-section{
+.image-section {
     height: 12em;
     overflow: hidden;
-    border-radius: 12px 12px 0px 0px; 
+    border-radius: 12px 12px 0px 0px;
     /* keep value same/close as grid-item  */
 }
 
-.img1{
+.img1 {
     background-image: url('imgs/staticimg.png');
     background-size: cover;
     background-position: center;
@@ -77,19 +82,49 @@
     background-image: url('imgs/giphy.webp#t=0s');
 } */
 
-.grid2{
+.grid2 {
     border-color: rgb(255, 255, 255);
     box-shadow: 2px 2px 10px rgb(255, 255, 255);
 
 }
 
 
-.grid-item-content{
+.grid-item-content {
     text-align: left;
     padding-left: 1.2em;
     padding-right: 1.2em;
 }
 
-.grid-item-content{
-    color:rgb(228, 228, 228);
+.grid-item-content {
+    color: rgb(228, 228, 228);
 }
+
+.outer-grid-item > p {
+    width: 30vw;
+    display: inline-block;
+}
+
+
+.parallax1 , .parallax2{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(imgs/bg1.jpg);
+    border-width: 2px;
+    border: solid none;
+    border-color: white;
+    /* filter: brightness(60%); */
+}
+
+.parallax2{
+    background-image: url(imgs/bg2.jpg);
+    background-color: rgba(0, 0, 0, 1); 
+    mix-blend-mode: color-burn;
+}
+
+
+
+
+
