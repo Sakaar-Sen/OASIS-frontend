@@ -2,7 +2,7 @@
     align-content: center;
     width: 100%;
     z-index: -1;
-    margin-bottom: 2em;
+    margin: 3em auto;
 }
 
 .item {
