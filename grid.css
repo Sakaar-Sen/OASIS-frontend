@@ -9,10 +9,13 @@
 .outer-grid-heading {
     color: white;
     font-size: 4em;
+    margin: 0;
 }
 
 .outer-grid-item {
     text-align: center;
+    opacity: 100%;
+    filter: brightness(150%);
 }
 
 .item1 {
@@ -99,13 +102,22 @@
     color: rgb(228, 228, 228);
 }
 
-.outer-grid-item > p {
-    width: 30vw;
+.outer-grid-item > ul {
+    margin-top: 10vh;
+    width: 22vw;
     display: inline-block;
+    /* background-color: rgba(255, 255, 255, 0.61);
+    backdrop-filter: blur(5px);
+    color: black; */
 }
 
 
-.parallax1 , .parallax2{
+li {
+    padding: 2vh 0;
+}
+
+
+.parallax1 , .parallax2, .parallax3, .parallax4{
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -115,14 +127,34 @@
     border-width: 2px;
     border: solid none;
     border-color: white;
-    /* filter: brightness(60%); */
+    padding-top: 20vh;
+}
+
+.parallax1::before {
+    content: "";
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    width: 100%;
+    height: 500vh;
+    background-color: black;
+    opacity: 0.4;
 }
 
 .parallax2{
     background-image: url(imgs/bg2.jpg);
-    background-color: rgba(0, 0, 0, 1); 
-    mix-blend-mode: color-burn;
 }
+
+.parallax3{
+    background-image: url(imgs/bg3.jpg);
+}
+
+.parallax4{
+    background-image: url(imgs/bg4.jpg);
+}
+
+
+
 
 
 
