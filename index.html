@@ -14,13 +14,14 @@
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="btns.css">
 
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             var video = document.getElementById("background-video");
 
-            video.playbackRate = 1.3;
+            video.playbackRate = 1.2;
 
         });
     </script>
@@ -33,10 +34,13 @@
     <div class="nav">
         <input type="checkbox" id="nav-check">
         <div class="nav-header">
-            <div class="nav-title">
-                BackSlash
+            <div class="logo-container">
+                <img src="imgs/logo-removebg.png" width="60px">
+                <div class="nav-title">
+                    BackSlash
+                </div>
             </div>
-            <div class="line"> </div>
+            <!-- <div class="line"> </div> -->
         </div>
         <div class="nav-btn">
             <label for="nav-check">
@@ -46,10 +50,16 @@
             </label>
         </div>
         <div class="nav-links">
-            <a href="index.html" class="active active-link">Home</a>
+            <!-- <a href="index.html" class="active active-link">Home</a>
             <a href="about.html">About</a>
-            <a href="">Sponsers</a>
+            <a href="">Sponsers</a> -->
             <!-- <a href="login.html" id="get-started">Get Started</a> -->
+
+            <div class="btns-container">
+                <div class="btn"><a href="#">Home</a></div>
+                <div class="btn"><a href="#">About Us</a></div>
+                <div class="btn"><a href="#">Sponsers</a></div>
+            </div>
         </div>
     </div>
 

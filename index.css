@@ -10,6 +10,11 @@ body {
     overflow-x: hidden;
 }
 
+@font-face {
+  font-family: 'Time';
+  src: url('font/TimeNormal/TimeNormal.ttf');
+}
+
 .line{
     position: absolute;
     left: 1em;
@@ -92,14 +97,16 @@ body {
 
 
 .welcome {
-    grid-column-start: 4;
-    grid-column-end: 7;
+    grid-column-start: 3;
+    grid-column-end: 8;
     grid-row-start: 2;
     grid-row-end: 4;
     justify-self: center;
     text-align: center;
     font-size: 6em;
-    color: black;
+    font-family: 'Time';
+    font-weight: 200;
+    color: rgb(0, 0, 0);
 }
 
 .sub-welcome {
@@ -130,6 +137,8 @@ body {
 
 .home-get-started,
 .home-get-started::after {
+  
+
   grid-column-start: 5;
   grid-row-start: 8;
   grid-row-end: 9;

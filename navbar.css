@@ -1,6 +1,5 @@
 .nav {
-    margin-top: .3em;
-    height: 3.12em;
+    height: 5em;
     width: 100%;
     background-color: transparent;
     position: absolute;
@@ -9,17 +8,34 @@
     /* background-color: black; */
   }
   
-.nav > .nav-header {
-    display: inline;
-  }
+.nav-header {
+    display: inline-flex;
+}
+
+
+.logo-container {
+    display: inline-flex;
+    align-items: center;
+    align-self: center;
+    padding-top: .5em;
+    padding-left: .8em;
+}
   
-.nav > .nav-header > .nav-title {
+/* .nav > .nav-header > .nav-title {
     display: inline-block;
-    font-size: 22px;
+    font-size: 5em;
     color: #fff;
     padding: .625em;
+    justify-self: center;
+    text-align: center;
   }
-  
+   */
+
+.nav-title{
+    font-size: 1.9em;
+    padding-left: .2em;
+}
+
 .nav > .nav-btn {
     display: none;
   }
@@ -74,13 +90,6 @@
 
 
 
-#get-started:hover {
-    background-position: 100% 0;
-    transition: all .2s ease-out;
-}
-
-
-
 
 
 
@@ -107,6 +116,7 @@
     .nav {
         background-color: black;
         margin-top: 0px;
+        height: 3.8em;
     }
     .nav > .nav-btn {
         display: inline-block;
@@ -119,6 +129,7 @@
         width: 50px;
         height: 50px;
         padding: 13px;
+        padding-bottom: 0;
     }
 
     .nav > .nav-links > .active {
@@ -137,6 +148,15 @@
         border-top: 2px solid #eee;
     }
 
+    .logo-container{
+        padding: 0;
+    }
+
+    .btns-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .nav > .nav-links {
         position: absolute;
         display: block;
@@ -145,7 +165,7 @@
         height: 0px;
         transition: all 0.3s ease-in;
         overflow-y: hidden;
-        top: 50px;
+        top: 3.3em;
         left: 0px;
     }
 
