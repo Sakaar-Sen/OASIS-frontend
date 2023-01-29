@@ -105,7 +105,7 @@
     color: rgb(228, 228, 228);
 }
 
-.outer-grid-item > ul {
+.outer-grid-item>ul {
     margin-top: 0;
     width: 23vw;
     display: inline-block;
@@ -141,13 +141,16 @@ li {
     display: flex;
 }
 
-.events-heading-container > h1 {
+.events-heading-container>h1 {
     display: inline-block;
     font-size: 5em;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.parallax1 , .parallax2, .parallax3, .parallax4{
+.parallax1,
+.parallax2,
+.parallax3,
+.parallax4 {
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -174,7 +177,7 @@ li {
     opacity: 0.5;
 }
 
-.parallax2{
+.parallax2 {
     background-image: url(imgs/bg2.jpg);
     border-top: solid;
     border-bottom: solid;
@@ -182,11 +185,11 @@ li {
     border-color: rgb(0, 0, 0);
 }
 
-.parallax3{
+.parallax3 {
     background-image: url(imgs/bg3.jpg);
 }
 
-.parallax4{
+.parallax4 {
     /* position: relative; */
     border-top: solid;
     border-width: 5px;
@@ -196,8 +199,16 @@ li {
 
 
 
-
-
-
-
-
+.event-grid-outer {
+    width: 15vw;
+    height: 50vh;
+    overflow: hidden;
+    background: #522d5b;
+    clip-path: polygon(0 13%,
+            13% 0,
+            100% 0,
+            100% 87%,
+            87% 100%,
+            0% 100%,
+            0% 13%)
+}
