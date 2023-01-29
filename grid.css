@@ -167,7 +167,7 @@ li {
     top: 100vh;
     left: 0;
     width: 100%;
-    height: 410vh;
+    height: 400vh;
     background-color: rgba(0, 0, 0);
     /* background-image: linear-gradient(0deg, pink, blue, pink, blue, pink); */
     /* background-blend-mode: color-burn; */
@@ -187,8 +187,8 @@ li {
 }
 
 .parallax4{
+    /* position: relative; */
     border-top: solid;
-    border-bottom: solid;
     border-width: 5px;
     border-color: rgb(0, 0, 0);
     background-image: url(imgs/bg4.jpg);

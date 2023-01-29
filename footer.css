@@ -1,8 +1,13 @@
+/* .outer-footer {
+    position: absolute;
+    bottom: 3em;
+} */
+
 .footer-container {
     align-content: center;
     width: 100%;
     z-index: -1;
-    margin: 3em auto;
+    /* margin: 3em auto; */
 }
 
 .item {
